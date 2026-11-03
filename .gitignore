@@ -1,0 +1,21 @@
+# Field data and local results are deliberately kept outside version control.
+data/
+private/
+outputs/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.ini
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.pth
+*.pt
+*.bin
+*.key
+*.pem
+*.log
