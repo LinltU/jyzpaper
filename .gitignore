@@ -19,3 +19,9 @@ __pycache__/
 *.key
 *.pem
 *.log
+*.pkl
+*.pickle
+*.ckpt
+**/license
+**/output/
+**/model_output/

@@ -1,0 +1,11 @@
+# Dependencies inferred from the original imports, not a captured original lockfile.
+# Install in a separate environment from the v4 pinned dependencies.
+# The original fillna(method=...) requires pandas before 3.
+pandas<3
+numpy
+torch
+scikit-learn
+scipy
+joblib
+cryptography
+openpyxl

@@ -14,6 +14,7 @@
 - `tests/test_v4.py`：微秒/纳秒、容差、缺测跳变与配置秘密隔离回归测试。
 - `tests/verify_regression.py`：本地私有数据重跑结果与已有时间修正版逐字段比较。
 - `prompts/v5_dlinear_anomaly_prompt.md`：可直接交给编程代理执行的中文 v5 prompt。
+- `legacy_dlinear/`：本地既有 DLinear 训练/预测代码归档，含模型及必要导入依赖、命令行入口；不是已修正的 v5 实现，详见该目录说明。
 
 原始 XLSX、实测 CSV、设备位置映射、INI、模型密钥、模型权重及私人报告不在仓库中。仓库没有声明对这些原始资料的再分发许可。
 
