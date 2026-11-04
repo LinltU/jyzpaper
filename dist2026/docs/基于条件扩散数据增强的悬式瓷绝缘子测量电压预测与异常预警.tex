@@ -1,0 +1,197 @@
+\documentclass[UTF8,a4paper,10pt]{ctexart}
+\usepackage[a4paper,left=1.65cm,right=1.65cm,top=1.65cm,bottom=1.65cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,multirow,graphicx,float,caption,enumitem,multicol,hyperref,xcolor}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\setlength{\columnsep}{0.65cm}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.15em}
+\captionsetup{font=small,labelfont=bf,labelsep=space}
+\renewcommand{\arraystretch}{1.15}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\ddpm}{DDPM}
+\newcommand{\fmlp}{FMLP}
+
+\title{\bfseries 基于条件扩散数据增强的悬式瓷绝缘子测量电压预测与异常预警}
+\author{JYZmentor 项目组}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{center}
+\textit{Prediction and Anomaly Warning of Suspension Porcelain Insulator Voltage Using Conditional Diffusion Augmentation}
+\end{center}
+
+\begin{abstract}
+针对架空线路悬式瓷绝缘子在线监测中真实异常样本稀缺、湿度阶段波动差异明显以及单点预测难以支持风险判定的问题，本文基于本工程采集的非侵入式电压分布数据，构建了一个包含25台设备、11\,235条唯一记录的数据集，并提出一种湿度阶段感知的条件扩散数据增强方法。数据采集同时记录局部测量电压、温度、相对湿度、设备标识、安装位置和时间信息；通过设备内时间排序、去重、因果切分和24步滑动窗口构造训练样本。模型采用共享特征混合多层感知机（Feature Mixing MLP，\fmlp{}）编码器、四阶段湿度残差专家和P10/P50/P90分位数输出，扩散部分采用去噪扩散概率模型（Denoising Diffusion Probabilistic Model，\ddpm{}）仅生成极高湿度条件下的训练窗口，并以25\%比例加入下游训练。最新数据时间尾部留出集包含1\,715条真实记录。结果表明，扩散增强模型RMSE为0.2150、MAE为0.1210、$R^2$为0.4239，P10--P90区间覆盖率为81.46\%，相较纯真实重训模型RMSE、MAE分别改善1.13\%和1.06\%，相较旧集成模型RMSE改善18.34\%。研究表明，条件扩散增强能够在极高湿度阶段提供小幅但稳定的预测收益；同时，合成数据不能替代真实高湿连续过程，当前模型更适合作为经验证的候选算法和异常基线。
+\end{abstract}
+
+\noindent\textbf{关键词：}悬式瓷绝缘子；非侵入式电压分布；条件扩散；DDPM；FMLP；分位数预测；异常预警
+
+\begin{multicols}{2}
+\section{数据集与采集方法}
+\subsection{工程对象与采集原理}
+本工程面向架空输电线路悬式瓷绝缘子串的在线状态感知。采集设备安装在绝缘子串的指定片段，不直接接触高压导体，通过非侵入式电压分布测量原理获得局部电势差或等效测量电压，同时采集设备附近温度和相对湿度。基本链路为：高压侧局部电场或电势耦合进入传感单元，经高压衰减、隔离和低压采集后形成可记录的Measure值。由于接口提供的是设备侧测量结果而不是原始高压波形，本文将Measure视为监督学习目标，将位置和设备标识视为电压分布的重要条件。
+
+采集程序按设备IMEI查询时间状态，并保存IMEI、Timestamp、Battery、Measure、Temp、Hum和Version七类原始字段。Battery是测量设备自身供电电量，不能解释为绝缘子电压，也不作为本研究的电气驱动变量。位置由设备配置和位置映射表恢复，包括线路电压等级、相别、左右侧、大小号侧、串号、绝缘子片数以及被监测片段。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{../../tmp/paper_assets/fig1_data_pipeline.png}
+\caption{数据采集、时间窗口构造与在线预警流程}
+\end{figure}
+
+\subsection{数据规模与字段}
+原始训练文件包含1\,963行，原始测试文件包含421行；最新采集文件包含25个设备工作表和8\,851行记录。以IMEI与时间戳为去重键，按最新采集数据、原测试数据、原训练数据的优先级合并后得到11\,235条有效唯一记录，时间范围为2025年11月12日至2026年7月16日。每台设备最后15\%且至少48条记录作为时间尾部留出集，得到训练记录9\,520条、真实测试记录1\,715条。
+
+\begin{table}[H]
+\centering\small
+\caption{原始字段及模型用途}
+\begin{tabularx}{\linewidth}{p{1.25cm}p{1.55cm}Y}
+\toprule
+字段 & 含义 & 模型用途与备注\\
+\midrule
+IMEI & 设备标识 & 设备嵌入条件；共25台\\
+Timestamp & 采样时间 & 排序、采样间隔和周期特征\\
+Measure & 局部测量电压 & 预测目标及历史输入\\
+Temp & 附近温度 & 环境协变量\\
+Hum & 相对湿度 & 阶段划分和门控\\
+Location & 线路与安装片段 & 位置条件，由映射表恢复\\
+Battery & 设备电量 & 不进入模型，仅作设备健康监控\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{清洗与样本构造}
+首先按设备分组并按时间排序，删除重复时间戳和无效数值；对Hum=0等明显异常湿度进行标记，并使用设备内因果前向填充，避免未来信息泄漏。随后计算绝对湿度、采样间隔、温湿度变化率、指数移动平均、高湿持续时间、历史Measure变化量和位置解析特征。每个监督样本由同一设备最近24条历史记录和下一时刻Measure构成，预测目标采用相对于最后一个历史Measure的残差形式：
+\begin{equation}
+r_t=Measure_t-Measure_{t-1},\qquad \hat y_t=Measure_{t-1}+\hat r_t.
+\end{equation}
+缩放器只在训练部分拟合；验证集和测试集始终保持真实数据，不加入合成样本；测试标签不参与扩散训练、质量筛选、分层边界或融合权重搜索。
+
+\subsection{湿度阶段与数据不平衡}
+根据目标时刻相对湿度将样本划分为干燥、过渡、高湿和极高湿四个阶段：Hum$<$50\%、50\%$\leq$Hum$<$65\%、65\%$\leq$Hum$<$80\%和Hum$\geq$80\%。早期固定切分中，四阶段样本数分别为638、892、706和148；极高湿阶段相邻Measure变化中位数约为低湿阶段的56倍。最新数据扩展后，极高湿训练窗口增至1\,452个，但仍是四阶段中方差最高的部分。因此低湿阶段需要窄区间和高灵敏度，极高湿阶段需要更宽的条件区间和更强的尾部建模。
+
+\section{条件扩散增强与阶段感知预测算法}
+\subsection{DDPM定义与原理}
+DDPM是Denoising Diffusion Probabilistic Model的缩写，中文为去噪扩散概率模型。其正向过程逐步向真实样本加入高斯噪声，使数据分布接近标准正态；反向过程由神经网络学习，从随机噪声逐步恢复出符合条件的数据样本。与独立高斯扰动相比，反向去噪可以拟合多变量时间序列的联合关系。
+\begin{equation}
+q(x_k|x_0)=\sqrt{\bar\alpha_k}x_0+\sqrt{1-\bar\alpha_k}\,\epsilon,\quad \epsilon\sim\mathcal N(0,I).
+\end{equation}
+本工程采用50个扩散步和线性$\beta$噪声调度，条件去噪器接收湿度阶段嵌入和设备嵌入，以噪声预测均方误差训练：
+\begin{equation}
+\mathcal L_{DDPM}=\mathbb E\left[\|\epsilon-\epsilon_\theta(x_k,k,stage,device)\|^2\right].
+\end{equation}
+
+\subsection{条件生成对象与增强策略}
+扩散增强只作用于Hum$\geq$80\%的高风险阶段。正式候选采用整窗条件DDPM，生成24步Measure、Temp、Hum、DeltaHours历史、目标时刻环境变量和目标残差，共约100维；按真实极高湿训练窗口的25\%生成363个合成窗口，合成损失权重为0.5，并使用强度0.75的边缘矩匹配校准。位置、时间周期和one-hot等确定性字段不由扩散模型生成，而是在下游训练前依据真实样本重新计算。
+
+合成样本先在训练集内部进行质量诊断，再以固定比例加入下游高湿专家。诊断指标包括标准化均值偏移、标准差比、最近邻距离、Measure--Hum历史相关性和目标湿度合理性。验证集与测试集全部为真实窗口，从而可以单独识别数据增强的作用。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{../../tmp/paper_assets/fig2_algorithm.png}
+\caption{共享FMLP、湿度阶段专家、条件DDPM与分位数预警框架}
+\end{figure}
+
+\subsection{共享FMLP与四阶段残差专家}
+FMLP指Feature Mixing MLP，即特征混合多层感知机。模型先对24步历史动态变量进行特征混合和残差编码，再接入目标时刻温湿度、湿度变化率、采样间隔和设备条件。共享编码器学习四个湿度阶段的共同规律；阶段专家只预测相对于共享输出的残差，降低极高湿小样本直接训练完整模型的过拟合风险：
+\begin{equation}
+h=Encoder(X_{t-24:t-1},c_t),\quad \hat r_t=\hat r_{global}(h)+\sum_s g_s(c_t)\hat r_s(h,c_t).
+\end{equation}
+门控输入包括当前湿度和相对上一时刻的湿度变化量。50\%、65\%和80\%边界使用平滑先验并叠加可学习门控，避免边界附近的预测突变。线路位置和设备身份作为显式条件；Battery不进入模型。
+
+\subsection{P10/P50/P90与异常评分}
+模型同时输出P10、P50和P90三个分位点。P10表示在当前设备、位置、温湿度和历史趋势条件下，约有10\%的正常结果低于该值；P50是中位数，代表最典型结果；P90表示约有90\%的正常结果低于该值。P10--P90形成条件预测区间，区间宽度随湿度阶段和历史波动自适应变化。训练使用分位数损失：
+\begin{equation}
+\mathcal L_q(y,q_\tau)=\max\{\tau(y-q_\tau),(\tau-1)(y-q_\tau)\},\quad \tau\in\{0.1,0.5,0.9\}.
+\end{equation}
+例如，若某一时刻输出P10=4.8、P50=5.2、P90=5.9，则模型认为约80\%的正常测量值会落在4.8--5.9之间，5.2是最典型值；实测5.5属于区间内，实测6.4则是需要关注的上侧越界。在线风险分数定义为：
+\begin{equation}
+score_t=\frac{|Measure_t-P50_t|}{(P90_t-P10_t)/2+\varepsilon}.
+\end{equation}
+系统结合连续超界次数和标准化残差升级告警等级。低湿阶段区间较窄，轻微偏离即可提高风险；极高湿阶段区间较宽，只有明显超出自然波动范围才升级。
+
+\section{实验设计与结果}
+\subsection{实验协议}
+实验使用两套协议。第一套为早期固定CSV切分，用于比较特征工程、四阶段模型和扩散机制，包含1\,144个训练窗口、219个验证窗口和320个真实测试窗口。第二套为最新数据时间尾部协议，用于模拟上线场景，包含7\,569个下游真实训练窗口、1\,351个验证窗口和1\,715条真实在线留出记录。所有扩散实验仅访问训练部分，采用相同随机种子和相同外层路由。
+
+\subsection{基线与公开代码方案对比}
+本工程复用了FMLP、FMLP-LTSF、LTSF-Linear、DLinear、NLinear、Transformer、SVM和树模型等代码路径。历史代码使用不同窗口和测试数量，作为参考对照；正式结论以最新1\,715条真实时间尾部留出集为主。
+
+\begin{table}[H]
+\centering\scriptsize
+\caption{最新真实留出集与历史代码对比}
+\begin{tabularx}{\linewidth}{p{2.2cm}r r r r}
+\toprule
+模型 & 测试数 & RMSE & MAE & $R^2$/覆盖率\\
+\midrule
+持续值基线 & 1\,715 & 0.3019 & 0.1891 & --\\
+旧集成模型 & 1\,715 & 0.2633 & 0.1753 & 0.1356/73.88\%\\
+新集成（纯真实） & 1\,715 & 0.2174 & 0.1223 & 0.4107/80.12\%\\
+新集成+25\% DDPM & 1\,715 & \textbf{0.2150} & \textbf{0.1210} & \textbf{0.4239/81.46\%}\\
+早期LTSF-Linear* & 306 & 0.2175 & 0.1751 & -0.1865\\
+早期DLinear* & 306 & 0.2177 & 0.1753 & -0.1880\\
+早期Tabular FMLP* & 306 & 0.6783 & 0.3875 & -4.5661\\
+\bottomrule
+\end{tabularx}
+\end{table}
+\noindent\footnotesize{*历史切分，仅用于参考。}
+
+在同一最新留出集上，纯真实重训集成已显著优于持续值基线和旧模型；加入25\%条件DDPM后，RMSE从0.2174降至0.2150，MAE从0.1223降至0.1210，$R^2$从0.4107升至0.4239，覆盖率从80.12\%升至81.46\%。相较旧集成模型，扩散候选的RMSE改善约18.34\%，但相对纯真实模型的收益约为1\%，说明扩散增强是精修项而非真实采集的替代品。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{../../tmp/paper_assets/fig3_metrics.png}
+\caption{最新1\,715条真实留出集上的误差对比}
+\end{figure}
+
+\subsection{分湿度阶段结果}
+最新时间尾部留出集中，dry、transition、humid和very\_humid阶段样本数分别为15、211、547和942，对应新模型RMSE分别为0.0166、0.0962、0.2230和0.2347，P10--P90覆盖率分别为93.33\%、78.20\%、76.05\%和82.70\%。极高湿阶段包含942条测试记录，是留出集的主要组成部分；阶段专家将极高湿RMSE从旧集成的0.3129降至0.2347，扩散候选进一步降至0.2306。
+
+\subsection{扩散质量与消融}
+\begin{table}[H]
+\centering\scriptsize
+\caption{条件扩散增强消融结果}
+\begin{tabularx}{\linewidth}{p{1.8cm}r r r Y}
+\toprule
+实验 & 合成窗口 & 整体RMSE & 极高湿RMSE & 结论\\
+\midrule
+真实数据基线 & 0 & 0.09216 & 0.28027 & 基准\\
+原始DDPM 0.25倍 & 21 & 0.09678 & 0.28605 & 过少，收益不足\\
+原始DDPM 1.0倍 & 84 & 0.10031 & 0.30425 & 过度增强\\
+矩匹配DDPM 0.5倍 & 42 & 0.10166 & 0.30655 & 边缘更接近但未提升\\
+最新25\% DDPM & 363 & 0.21496 & 0.23059 & 当前候选最优\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+早期实验显示，原始DDPM生成的高湿样本标准化标准差中位数比约为0.55，目标残差标准差为0.212，明显窄于真实高湿训练数据的0.403；边缘矩匹配可将标准差比提高到0.964，但下游RMSE仍回退。最新数据扩展后，真实极高湿窗口增加到1\,452个，25\%增强方案在1\,715条真实留出集上取得当前最优结果。这说明扩散增强的关键不只是匹配均值和方差，还要学习历史Measure、湿度过程和残差尾部的联合关系。
+
+\subsection{异常预警意义与边界}
+当前系统学习的是正常运行条件下的Measure条件分布，因此可对“当前温湿度、位置和历史趋势下是否合理”进行预警。对于缺少大量现场异常标签的工程，这比直接训练异常分类器更稳健。实验室异常数据可作为外部压力测试和阈值校准样本，但不能单独代表所有挂线故障机理。
+
+当实测值持续落在P10--P90区间外、标准化残差连续升高，且异常不随湿度回落而恢复时，可提高内部劣化或测量链路故障的风险等级；若多个同类设备随湿度同步越界，则更可能是环境或污湿影响。后续若与COMSOL结合，可将零值绝缘子、表面水膜和污秽层仿真产生的电压分担模板作为物理先验，进一步区分环境异常和绝缘子内部劣化。
+
+\section{结论}
+本文围绕悬式瓷绝缘子在线测量电压预测，完成了从数据采集、时间切分、湿度阶段建模到条件扩散增强和分位数预警的完整流程。主要结论如下：
+\begin{enumerate}[leftmargin=1.4em,itemsep=0.1em]
+\item 构建了25台设备、11\,235条唯一记录的数据集，并保留线路、相别、串号和监测片段等位置语义，覆盖低湿平稳过程和极高湿高波动过程。
+\item 四阶段共享FMLP加残差专家显式处理湿度阶段差异；P10/P50/P90输出把点预测扩展为条件预测区间，为缺少异常标签的在线预警提供可校准基线。
+\item 条件DDPM仅增强极高湿训练窗口，采用25\%合成比例后，在最新真实时间尾部留出集上将RMSE降至0.2150、MAE降至0.1210，覆盖率达到81.46\%。收益存在但幅度有限，不能据此宣称合成数据已替代真实异常采集。
+\item 下一步应优先采集更多连续的高湿上升、持续和回落过程，并同步记录泄漏电流、表面状态及实验室异常标签；数据规模和跨种子稳定性充分后，再考虑将Diffusion-TS风格的频域约束扩展到多步预测。
+\end{enumerate}
+
+\begin{thebibliography}{10}
+\bibitem{ho2020} Ho J, Jain A, Abbeel P. Denoising Diffusion Probabilistic Models[C]//NeurIPS, 2020.
+\bibitem{csdi2021} Tashiro Y, Song J, Song Y, Ermon S. CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation[C]//NeurIPS, 2021. \url{https://arxiv.org/abs/2107.03502}.
+\bibitem{timegrad2021} Rasul K, et al. TimeGrad: Diffusion-based Probabilistic Forecasting with Autoregressive Sequence Models[C]//ICML, 2021. \url{https://arxiv.org/abs/2101.12072}.
+\bibitem{timediff2023} Shen L, et al. TimeDiff: Non-autoregressive Diffusion Models for Time Series Forecasting[C]//ICML, 2023. \url{https://arxiv.org/abs/2306.05043}.
+\bibitem{diffusionts2024} Yuan X, et al. Diffusion-TS: Interpretable Diffusion for General Time Series Generation[C]//ICLR, 2024. \url{https://arxiv.org/abs/2403.01742}.
+\bibitem{wang2019} 王增彬, 刘姝嫔, 周宏扬, 等. GIS盆式绝缘子温度多物理场仿真方法[J]. 高电压技术, 2019, 45(12): 3820--3826.
+\bibitem{liu2022} 刘宇, 李光茂, 朱晨, 等. 湿热环境异常发热复合绝缘子电热耦合仿真分析[J]. 高压电器, 2022, 58(6): 31--39.
+\bibitem{zhang2012} 张海兵, 田甜, 文旭. 污湿环境下复合绝缘子电场分布的研究[J]. 广东工业大学学报, 2012, 29(2): 58--62.
+\bibitem{gao2024} 高拓宇, 韩学春, 郝宝欣, 等. 零值绝缘子对超高压500 kV绝缘子串电场分布影响研究[J]. 自动化技术与应用, 2024, 43(1): 178--181.
+\bibitem{jyz2026} JYZmentor工程组. 湿度阶段FMLP与条件扩散增强实验记录[R]. 2026.
+\end{thebibliography}
+\end{multicols}
+\end{document}

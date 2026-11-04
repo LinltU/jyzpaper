@@ -1,0 +1,18 @@
+# Reproduction runtime (validated on Python 3.10 / Windows / CPU)
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.13.1
+scikit-learn==1.5.2
+torch==2.2.2
+lightgbm==4.5.0
+matplotlib==3.9.4
+tqdm==4.67.1
+PyYAML==6.0.2
+cloudpickle==3.1.2
+jaxtyping==0.2.28
+typeguard==2.13.3
+
+# Official TimeGrad / pytorch-ts import compatibility
+gluonts==0.14.4
+pydantic==2.13.5
+toolz==0.12.1
