@@ -1,0 +1,44 @@
+sample_id,source_id,IMEI,inherited_label,frozen_context_label,full_refitted_v4_label,labels_agree,full_refitted_reason,nonpositive_measure_points
+0,1,863644079729449,0,0,0,True,normal,0
+5,11618,863644079749397,0,0,0,True,normal,0
+13,62,863644079729449,0,1,1,True,peer-delta jump (per-device),1
+677,10883,863644079749363,0,1,1,True,peer-delta jump (per-device),0
+708,10858,863644079749363,0,0,0,True,normal,0
+1142,1723,863644079730629,0,1,1,True,peer-delta jump (per-device),0
+1410,1737,863644079730629,0,0,0,True,normal,0
+2030,2569,863644079730645,0,0,0,True,normal,0
+2034,1159,863644079730611,0,1,1,True,peer-delta jump (per-device),0
+2123,12685,863644079749413,0,0,0,True,normal,0
+2345,2611,863644079730645,0,1,1,True,peer-delta jump (per-device),0
+2553,3753,863644079730660,0,0,0,True,normal,1
+2688,3821,863644079730660,0,1,1,True,peer-delta jump (per-device),0
+2859,507,863644079730603,0,0,0,True,normal,0
+3216,3263,863644079730652,0,0,0,True,normal,2
+3279,3142,863644079730652,0,1,1,True,peer-delta jump (per-device),1
+3566,10280,863644079749355,0,0,0,True,normal,0
+4206,15640,863644079759867,0,0,0,True,normal,0
+4250,7727,863644079748878,0,0,0,True,normal,0
+4405,15424,863644079759867,0,0,0,True,normal,1
+4501,7757,863644079748878,0,1,1,True,peer-delta jump (per-device),0
+4919,7732,863644079748878,0,0,0,True,normal,0
+4920,11012,863644079749363,1,1,1,True,peer-delta jump (per-device),0
+4959,2664,863644079730645,1,1,1,True,peer-delta jump (per-device),1
+4984,1147,863644079730611,1,1,1,True,peer-delta jump (per-device),0
+5035,1192,863644079730611,1,0,0,True,normal,1
+5050,12716,863644079749413,1,1,1,True,peer-delta jump (per-device),0
+5109,4963,863644079730694,1,1,1,True,peer-delta jump (per-device),1
+5115,3854,863644079730660,1,1,1,True,isolated extreme peer jump,0
+5181,10378,863644079749355,1,1,1,True,peer-delta jump (per-device),0
+5194,10327,863644079749355,1,0,0,True,normal,0
+5231,10325,863644079749355,1,0,0,True,normal,0
+5236,10309,863644079749355,1,0,0,True,normal,2
+5245,10322,863644079749355,1,0,0,True,normal,0
+5260,10392,863644079749355,1,1,1,True,peer-delta jump (per-device),0
+5267,10329,863644079749355,1,0,0,True,normal,0
+5280,10331,863644079749355,1,0,0,True,normal,0
+5308,10309,863644079749355,1,0,0,True,normal,0
+5332,10315,863644079749355,1,0,0,True,normal,0
+5342,7617,863644079748878,1,1,1,True,peer-delta jump (per-device),0
+5399,15455,863644079759867,1,1,1,True,peer-delta jump (per-device),1
+5401,7609,863644079748878,1,1,1,True,peer-delta jump (per-device),0
+5407,15476,863644079759867,1,1,1,True,peer-delta jump (per-device),0

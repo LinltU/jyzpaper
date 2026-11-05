@@ -1,0 +1,56 @@
+{
+  "source": "/home/test/linliting/jyzmentor/device_data_110_220_final.xlsx",
+  "label_source": "process_device_nonoverlap_windows_v42.py",
+  "label_rule": "point inside a v4 candidate window is anomalous; a length-4 window is anomalous if any point is anomalous",
+  "v4_rule": "see protocol_v42.json; windows 32 points, peer mode intra-string",
+  "ratios_definition": "train:test",
+  "feature_set": "v4-evi",
+  "baseline": "archived",
+  "ratios": {
+    "2to8": 0.2,
+    "3to7": 0.3,
+    "4to6": 0.4,
+    "5to5": 0.5
+  },
+  "features": [
+    "Measure",
+    "env_residual_z",
+    "peer_delta_z",
+    "peer_delta_jump_z",
+    "delta_measure"
+  ],
+  "window_length": 4,
+  "methods": [
+    "CSDI",
+    "MTSCI",
+    "IMDiffusion",
+    "Diffusion-TS",
+    "D3R",
+    "TimeGrad",
+    "NsDiff",
+    "FIDE",
+    "PaD-TS",
+    "WaveStitch",
+    "TabDDPM",
+    "CCDM",
+    "DiffPLF",
+    "TSDE",
+    "SSSD",
+    "CoSTI",
+    "SSD-TS",
+    "MCD-TSF"
+  ],
+  "epochs": 60,
+  "steps": 20,
+  "seeds": [
+    42,
+    123,
+    2024
+  ],
+  "multiplier": 1,
+  "device": "cuda",
+  "generation_scope": "peer_group",
+  "min_per_scope": 30,
+  "point_anomaly_rate": 0.07300559317044451,
+  "window_anomaly_rate": 0.07871082199881727
+}

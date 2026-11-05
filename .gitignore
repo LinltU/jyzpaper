@@ -74,10 +74,30 @@ credentials*.json
 /dist2026/humidity_stage_*_evaluation/
 /dist2026/latest_retraining_data_*/
 /dist2026/latest_retraining_fmlp_*/
-/v4_results_20261009/01_anomaly_labeling/
-/v4_results_20261009/02_benchmark_base_features/
-/v4_results_20261009/03_benchmark_v4_evidence_features/
 /v4_results_20261009/04_smoke/
-/v4_results_20261009/06_reports/
-/v4_results_20261009/07_generated_v4_recheck/
 /绝缘子检测算法进展*.md
+
+# v4-evi SOTA results: keep reports, summaries and figures; exclude regenerable
+# per-configuration dumps (216 npz + 216 metadata CSV per feature set, ~640 MB).
+/v4_results_20261009/07_generated_v4_recheck/rechecked_*.csv.gz
+/v4_results_20261009/06_reports/V4_PROGRESS_ASSETS/
+/v4_results_20261009/04_smoke/
+
+# Result tables for the published reports are small and must be versioned.
+# Keep the bulk exclusions above: they must stay last-match-wins.
+!/v4_results_20261009/**/*.csv
+!/v4_results_20261009/**/*.json
+!/v4_results_20261009/**/*.md
+!/v4_results_20261009/**/*.png
+/v4_results_20261009/0*_benchmark_*/generated_metadata_*.csv
+/v4_results_20261009/0*_benchmark_*/raw_*.npz
+/v4_results_20261009/0*_benchmark_*/figures/generated_data/
+/v4_results_20261009/07_generated_v4_recheck/rechecked_*.csv.gz
+/v4_results_20261009/06_reports/V4_PROGRESS_ASSETS/
+# Per-point dumps and window metadata are regenerable from the scripts in
+# 05_scripts (they only differ by baseline/feature set, ~6 MB each).
+/v4_results_20261009/01_anomaly_labeling/device_points_v4.csv
+/v4_results_20261009/0*_benchmark_*/annotated_device_points_v4.csv
+/v4_results_20261009/0*_benchmark_*/window_metadata_v4.json
+/v4_results_20261009/08_v42_baseline_comparison/device_points_v42.csv
+/v4_results_20261009/08_v42_baseline_comparison/device_nonoverlap_windows_v42_*.csv

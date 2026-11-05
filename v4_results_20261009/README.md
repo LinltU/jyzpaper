@@ -11,12 +11,20 @@ v4_results_20261009/
 ├── README.md                          # 本文件（总索引）
 ├── 01_anomaly_labeling/               # v4 判异常方法与标注结果
 ├── 02_benchmark_base_features/        # SOTA 增强（base 5 维特征）
-├── 03_benchmark_v4_evidence_features/ # SOTA 增强（v4-evidence 5 维特征，优化版）
+├── 03_benchmark_v4_evidence_features/ # 【推荐方案】SOTA 增强（v4-evidence 5 维特征）
 ├── 04_smoke/                          # 小规模冒烟（base / v4evi）
 ├── 05_scripts/                        # 复现脚本
 ├── 06_reports/                        # 方法、实验、合并报告与生成数据图索引
-└── 07_generated_v4_recheck/            # 生成Measure的固定真实背景v4条件复判
+├── 07_generated_v4_recheck/            # 生成Measure的固定真实背景v4条件复判
+├── 08_v42_baseline_comparison/        # v4.2 环境基线对比（Huber/NLinear/archived/naive）
+└── 09_sota_v42/                       # v4.2 标签驱动的 SOTA 增强实验
 ```
+
+> **当前推荐方案：`03_benchmark_v4_evidence_features/`（v4-evi）。**
+> 它是三套候选中唯一在 4 个训练比例、2 种分类器上全部获得正增强收益的配置，
+> 详见该目录的 `README_V4EVI.md`。
+> `09_sota_v42/` 记录了 v4.2 标签的对照实验；v4.2 基线更准（R² 0.536 vs 0.511），
+> 但 SOTA 指标未全面超越 v4-evi，两者用途不同。
 
 > **合并报告**：`06_reports/V4_CONSOLIDATED_REPORT.md` 将 v4 判定方法与两套 SOTA 增强实验合并为一份完整报告（含全部表格、图、复现命令）。
 

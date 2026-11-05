@@ -1,0 +1,29 @@
+{
+  "type": "frozen-reference v4 source-context counterfactual audit",
+  "run": "/home/test/linliting/jyzmentor/v4_results_20261009/03_benchmark_v4_evidence_features",
+  "configurations": 216,
+  "generated_windows": 1021518,
+  "real_roundtrip_windows": 16910,
+  "window_reference_count": 547,
+  "original_candidate_count": 38,
+  "elapsed_seconds": 119.65954401087947,
+  "thresholds": {
+    "window_z": 3,
+    "persistence": 0.15,
+    "peer_jump": 8,
+    "min_peer_jumps": 2,
+    "isolated_peer_jump": 12,
+    "residual_jump": 2.5
+  },
+  "window_size": 32,
+  "replacement": "all four Measure points at exact source rows, one sample per independent scenario",
+  "frozen": "original environment prediction, residual median/MAD, observed peer residual median, peer MAD, rank distributions, window median/MAD",
+  "rank_extension": "piecewise-linear average-rank probability at original unique values, clipped to [1e-4,1-1e-4]; this is an audit extension of v4, not refitting v4",
+  "scope": "target-device labels only; peers fixed as observed; not a jointly synthesized fleet",
+  "neutral_control": "replace all four source Measure with frozen environment predicted Measure; NOT a guaranteed normal signal",
+  "disclaimer": "No standalone four-point v4 decision. No retraining, new ground truth, relabelled training files or changed benchmark metrics. All-real reference includes original full-history information: offline consistency audit only.",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.4"
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "files": [
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CCDM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CCDM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1744905,
+      "sha256": "e641118f24c0f2c3ae7d3b7eea8d29266b1c9ddc40e56f2dc6d076eca7ebaaad"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CCDM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CCDM_seed42/local_window_comparison_by_device.png",
+      "bytes": 988018,
+      "sha256": "fb9e9fc2702bcc735a0be28ab01d356ede9e515eb955f0d9417eb127f867897b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CCDM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CCDM_seed42/real_vs_generated_by_device.png",
+      "bytes": 1565051,
+      "sha256": "b2ab2125b5b2306ab2c3d558c934b2085c39396cb7fa5ea390448b566c008ac2"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CSDI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CSDI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1816031,
+      "sha256": "a7af9bb98f86b98c4b68152dfac1c61d653536ce4c9381730dcd26c79ec2ad10"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CSDI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CSDI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1044169,
+      "sha256": "302c91cfa0ede5a2b719de000c89e6703d2ee7eae15967bae68b1f02606cff2c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CSDI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CSDI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2003118,
+      "sha256": "efab53aca137c151a0713bdd8af1c051c2a069ccdc039a3e9dfccc8a7fee2ee3"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CoSTI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CoSTI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1760191,
+      "sha256": "79a9635a15b7286f847fd42b7afb3c93d6ffe2879b698061977486e9392e80d8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CoSTI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CoSTI_seed42/local_window_comparison_by_device.png",
+      "bytes": 976984,
+      "sha256": "cf5093862e5a364f892864be46c04afa6e425f8bd3529c47c94ad13016d9b0d4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/CoSTI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/CoSTI_seed42/real_vs_generated_by_device.png",
+      "bytes": 1886939,
+      "sha256": "affbdc161fe80da73f81a04222b27cdd2ad2a7dc3a89de1592cfcaaead11eb21"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/D3R_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/D3R_seed42/anomaly_localization_by_device.png",
+      "bytes": 1812029,
+      "sha256": "28e2c2faf78085b85827a35ffbc440263b3d79e236aafd5bd1dc07e1496945d9"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/D3R_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/D3R_seed42/local_window_comparison_by_device.png",
+      "bytes": 1108643,
+      "sha256": "3c87b7483a924ec815c6c8373b2b9c06370d3c46356fe2cdd081b050b5f9bd20"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/D3R_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/D3R_seed42/real_vs_generated_by_device.png",
+      "bytes": 1954917,
+      "sha256": "d0a51808e7a54740bb76546e123778805be7e1daccf7bab8ae5a9256297bc5dd"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1743533,
+      "sha256": "0093159d397f674c94e9d8b119f89dfbb968e8ff89b486029d3a5e9c0e12070c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "bytes": 959020,
+      "sha256": "2506f8571d0d732a63571d046efa4cc7d5608d8462647566f839c1ad19e33b3e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "bytes": 1730106,
+      "sha256": "fddb1bd4c9c5b62b9aba6bceb5f6c27b1e5fc082a3cde023849f3fb43175a0d6"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1817416,
+      "sha256": "fdc3133748390f0561e1d05ed9da7f674cf9dd37b02564c00d7697607fb3b543"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1060909,
+      "sha256": "b9cd9dfba66d40f9554a03bd73635ff9662ac43bb9a56bbd89e2c6073f47e88b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2047444,
+      "sha256": "68dafd044eb1f49be4dc0140364a6357d42e7f62e122760d58d28ab348c995f6"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/FIDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/FIDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1757283,
+      "sha256": "60bbd52bc5c85c29a647b462cab548bac4d00dfe12c92462c009e162b7c734c3"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/FIDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/FIDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 980083,
+      "sha256": "7f3ca24ad153d5b7477d7a346f643c220f0c3c413d4182d1995dba4104727873"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/FIDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/FIDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 1844932,
+      "sha256": "25b99760aef4b102e903bef6c553e3c01c725747d5a765773ce05e24d6158275"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "bytes": 1817777,
+      "sha256": "45c0f27b799234ba83ccbd3e5dcd79e0390ee63c44f4b8ed8c600b8b838dc325"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "bytes": 1040792,
+      "sha256": "f3f40dc1364c2acd7b7d1302ea1de284bc2be0141f4d201029dae873be483eac"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "bytes": 1982214,
+      "sha256": "5bf32d1827901b870e83948e0379e5b7ed2983597a45cda42048796985fc6b62"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1760560,
+      "sha256": "c4c7660d5568c47792a0af980edaf6adfcbed8b14e8250cbe4e1986ff2e6a2c6"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "bytes": 982363,
+      "sha256": "6c3056cd5285c168e7f361ba336e03e2205e279c4cfb3ab81d54f6709702ab99"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "bytes": 1847773,
+      "sha256": "8eabd4b87c086700de824eb4e0deac416a64bd30fd779e1611c789c3cac715ec"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MTSCI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MTSCI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1789394,
+      "sha256": "0f5556de3837ad40f682cdc0483f068e5f2533f29f0c5c7699d8b87d7b831090"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MTSCI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MTSCI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1040471,
+      "sha256": "f90322c1e44cd0c5e7a1a4a52cf3a95c924d4e0637225ee0ff2eea3a2b67ebec"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/MTSCI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/MTSCI_seed42/real_vs_generated_by_device.png",
+      "bytes": 1982663,
+      "sha256": "359860d98817cd34e60352127542e01314752d7d0667deeed8c40183ef11e0d9"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/NsDiff_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/NsDiff_seed42/anomaly_localization_by_device.png",
+      "bytes": 1799491,
+      "sha256": "f8406e4f95364fbbf454779fc138907317cf8aacb55aa053ce1af30c12e1d2fb"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/NsDiff_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/NsDiff_seed42/local_window_comparison_by_device.png",
+      "bytes": 1116917,
+      "sha256": "c32f4a9e4d640d97c3f335183bc6c1b7b4679fa536b5d3233f99c93c9af3391f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/NsDiff_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/NsDiff_seed42/real_vs_generated_by_device.png",
+      "bytes": 1840940,
+      "sha256": "35911b2b2abccae06be67619710b63add4ca90a49d032dd6ca6ae99c7b7d123a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1744774,
+      "sha256": "ed712eee5df27ba6fda8e3004c04af56725630ae074cb20921c5f2bb9083c0ad"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 987842,
+      "sha256": "f7f061e0094230e92da7e3743c55cd6469718448cff69ac56f6defde29bba2ce"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 1564090,
+      "sha256": "1624722dcdf5b5c062510f99c62efa7bb68aaf67cf18197dc176c4c6a402c9dd"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1747893,
+      "sha256": "55519955bd6ee0b2338c5e9bdd5f368685c614910f15c28851c524b5edb3d9cb"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 996468,
+      "sha256": "c423161f1ce324114b6d47b0ce45db4fba30256c4305aa88fabe1d3dbf48a0b4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 1522874,
+      "sha256": "93eed53cdd3911e38a59b02c58ef464a214f3ea51475afa6d6c76f669c70d646"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSSD_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSSD_seed42/anomaly_localization_by_device.png",
+      "bytes": 1762602,
+      "sha256": "ca1274c63f100653f3d3bcf2b91c0331c0e7f578af087513f7e38030d35ad911"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSSD_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSSD_seed42/local_window_comparison_by_device.png",
+      "bytes": 978058,
+      "sha256": "e6d158343708a02830de63ad4a20d9aa4954ef4e076d79cdc9b32a87480b1000"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/SSSD_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/SSSD_seed42/real_vs_generated_by_device.png",
+      "bytes": 1889184,
+      "sha256": "196cf07490e57c72aaf7ada6d29b21ed6f249a17b306a2193120d9923cf07b92"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TSDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TSDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1747604,
+      "sha256": "2519c7fdb63348d12d082b6588937390539ef268eb6bcab34257b6bec784ec59"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TSDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TSDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 969940,
+      "sha256": "90bb913c059198df105cc91f5f78ebd3fc8198703824209660eee8503dc7b553"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TSDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TSDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 1510075,
+      "sha256": "f990d490483109cd5f285c521fbfb622ecfdc5cc915412070db06b0bde968c9d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1745768,
+      "sha256": "e866f79e58e802301617576b5f4421e0418469260fcc74c934b7b80f2de93320"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "bytes": 987955,
+      "sha256": "667f038ceee48150471cba3263d74ddaf559bb8398f3dd5229ea1bbbf2118fa8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "bytes": 1565157,
+      "sha256": "39e9bba853030f1b7e571db14427ae33e843be98b13b2c19fa6c00e71cce459e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "bytes": 1748192,
+      "sha256": "72a0c7cb6288110e4952ef10a5bab878b0d1e83fda46b39491615276d5ef1b7d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "bytes": 992205,
+      "sha256": "fc181b2ed4f52a12d6cfec64381534c817f064df7b6ce2e21da82c1464639b59"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "bytes": 1519539,
+      "sha256": "8304ca76a21fcea72e563a389a2fb2db7afcb5ab58f600fe11f568f847967bca"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "bytes": 1763567,
+      "sha256": "f12fe30a96b7eaa207eef309fef42f6754c59fb99949d9d271dca140cb2fc57a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "bytes": 978380,
+      "sha256": "94c06ef66456d0c3af8b78dc8b8dac9d64ad4cc35dcb47d4c7672a6cbe147b38"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/2to8/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/2to8/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "bytes": 1889391,
+      "sha256": "d36230bc94af8533ae2813aa0b22a07d25f6776219a9d1b0af63d894fe19ef60"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CCDM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CCDM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1700603,
+      "sha256": "8fda54ab459017a5250a69ef258e59e17a745a537e6a0b23ea406467bacf9de6"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CCDM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CCDM_seed42/local_window_comparison_by_device.png",
+      "bytes": 1040824,
+      "sha256": "cfc05b07f6aa5305657f9a3ad40cd678959e7e05d593753aaf04be1ff9a7aa37"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CCDM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CCDM_seed42/real_vs_generated_by_device.png",
+      "bytes": 1958038,
+      "sha256": "89dbf2e485a7e2e430bd342926243c277eafe09ac692654e173ecef16e6c471d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CSDI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CSDI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1852428,
+      "sha256": "cefee7464d92ae4b84a50e8f0ed2fec020ee08859e137612764ed85f6289d5fa"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CSDI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CSDI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1068802,
+      "sha256": "e0fda203c3c1be52097dc87f4816be755877d666c803abe4dcf7813f00d4f866"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CSDI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CSDI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2242662,
+      "sha256": "909f1b5266a5690ebc5d2989fc002aa0725551aba9cd289af6613fee67d18f68"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CoSTI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CoSTI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1769754,
+      "sha256": "f2622fb9e9cbe8d29bdaacd57b47e8cc15d412e50800317183d9d72f5a72437a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CoSTI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CoSTI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1086407,
+      "sha256": "711c559be87411e8cf1aebdb138370ab5aab5740f914efd7ec864f808a286555"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/CoSTI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/CoSTI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2229862,
+      "sha256": "0ab9797f56568cdcb187140734963558e6b55e324f42ac2c522909cc1b3141f3"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/D3R_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/D3R_seed42/anomaly_localization_by_device.png",
+      "bytes": 1848376,
+      "sha256": "14e7305c2674267c35e8ec414e1d0f7dae8cf6aef4e96b1c3ba17e045dfa20fb"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/D3R_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/D3R_seed42/local_window_comparison_by_device.png",
+      "bytes": 1139602,
+      "sha256": "91c0be8bdf30d0614d3170fb9d46035bf69c758186ca5cbff97875ffde4f9a1b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/D3R_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/D3R_seed42/real_vs_generated_by_device.png",
+      "bytes": 2142232,
+      "sha256": "5478b5d4f63626702bb2b2e10f3133a894586f98577a638a511d4bfba9c6eec1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1699986,
+      "sha256": "8272972ef504018d0727d4f6d619c7585350b89b2bec824dee8f99bf001def8f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "bytes": 1037823,
+      "sha256": "9c6b750f8f0e9c029abb93ed8dce1dff591ec8ff67dd1b6f427dfccc1f7ac6a7"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "bytes": 1961256,
+      "sha256": "72a3f77c2d92b12d0079384f6211205a7e816e2f41fdce310e794b4cb76c87b4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1852391,
+      "sha256": "38bd339539426ce8ed81a40358229594a5c7be8b148b12411b7177069ae1d5ac"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1072293,
+      "sha256": "6e127094508907a7497bc836e5300a5b6937614dd15075c5080f86e8c3d1c564"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2307022,
+      "sha256": "1d8cecf57e7f576ed5db5def1db08dcc905cb4cc2f79b822eb85a49661e8c0c9"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/FIDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/FIDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1767796,
+      "sha256": "163093b77e0365a578cea1fb3b8227290be0beee3742d9480bcf59facebedb5a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/FIDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/FIDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 1097566,
+      "sha256": "fe965c08d4fc4277f0a72c603e562e8e0ee9ca84ec696ded2d1db4d5123369f1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/FIDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/FIDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 2145244,
+      "sha256": "acb778b4e9bded058e2c1dfafe009de3d421154036e05a677dac134a29097c6e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "bytes": 1852928,
+      "sha256": "decb6ccaff29811ad0d54027c7dda88cabbd12ec48915a5b3c24b119e5493248"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "bytes": 1092644,
+      "sha256": "345563ab09817a6a2b1bb1e729cd4c46802901083e59ee814ffeeede697cf1ef"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "bytes": 2215260,
+      "sha256": "59e4ccf1e0408ac6993737a97ca817ca27a78a8bed28e1a3b68874374830fd0d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1770683,
+      "sha256": "01d658308a5ebe4c1251b43b5136ea6f2dc6a6e2f7c894484c1f6591b82c7f6b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "bytes": 1099791,
+      "sha256": "6865c170da8727bd9f44af550faae56cef22d09da22e075efd0ca921b790eab0"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "bytes": 2148676,
+      "sha256": "0047049c64719677b767ee97e70e241e20ae397f693d4bcfaa9237420874ebd8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MTSCI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MTSCI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1845092,
+      "sha256": "7927681af31424e14b314c2655d853e35d7aa5a5e5ec50f012126f9b100fa9e9"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MTSCI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MTSCI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1073987,
+      "sha256": "d22feedac4c28df182457a869888c27e8078c136afa96da0c33a5c4cae1557f6"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/MTSCI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/MTSCI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2204827,
+      "sha256": "c2690e45705fadd275b96edbc37cfe9b6e93f90c76fe83bcb9e78ff6dc59d150"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/NsDiff_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/NsDiff_seed42/anomaly_localization_by_device.png",
+      "bytes": 1810054,
+      "sha256": "2c98b06bc318f94698101dc92d255b364231b05a272138224cb0ca64a3acfe9c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/NsDiff_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/NsDiff_seed42/local_window_comparison_by_device.png",
+      "bytes": 1211727,
+      "sha256": "6d1ffa7943c2069457c6a0c83eec4fc622ca20c0ad436eb1bd73369d748038a3"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/NsDiff_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/NsDiff_seed42/real_vs_generated_by_device.png",
+      "bytes": 1997680,
+      "sha256": "080ae52479774bf25284abe9e3f88a2d32559da833dc067928bb86dc92209f97"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1700215,
+      "sha256": "593143fb0665c45f0203b5b0591b6b57035eeeaa2e45f15c9b538ec8909ec680"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1040865,
+      "sha256": "b00d512c5f903f56fe0bbf84ab32957a4690df17f28d0b552e4bbd0faebcc328"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 1957115,
+      "sha256": "439ecd9c444a7e9d9bb56ce5e2ed268f6cfa4c614e4c6d2cddf2ad921a1e252e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1692006,
+      "sha256": "80317fa56dff55b9fb270469111a10bdd97a5625c8f5fce68faf0ce3ac0d4277"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1032780,
+      "sha256": "c753df90e54b278b11a14ac0d9576b4fb5da68920f37ff435d0f730d7f20d9de"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 1925342,
+      "sha256": "42058f21581a7d3e4d767bf2b97d705ac574bcae3cdf8c6fcd01b641bcad6611"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSSD_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSSD_seed42/anomaly_localization_by_device.png",
+      "bytes": 1771725,
+      "sha256": "f5052e2c7822b7d03e8f459f4e7b0988c7b64ba876b5c9d742a5b42427489f70"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSSD_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSSD_seed42/local_window_comparison_by_device.png",
+      "bytes": 1087592,
+      "sha256": "4f252cfc802911bf01f4404eccf9780e23f819c97815b51bb49a9a33bbfcf858"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/SSSD_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/SSSD_seed42/real_vs_generated_by_device.png",
+      "bytes": 2231959,
+      "sha256": "5bb9f8b532e3160c9b234ec122bcb0bf02199de11920ec5a57de145a8b7610f4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TSDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TSDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1693783,
+      "sha256": "1362c2a6be19dd8f1052c5f821823aacf87b95dff34f5c4ef4d11a1a3e36e9aa"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TSDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TSDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 1034779,
+      "sha256": "df665b298aa8cb48ed055526ab3dd5e5b633a41cfe2f2c9a1caf68a7fadb0aee"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TSDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TSDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 1944704,
+      "sha256": "8d9bd4ec079427f24324b188768aed437b7d3137193e4a92c178e0fdc6297e1f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1701460,
+      "sha256": "ec66349ccebdbf8d30f05d976a2ca4e1e037632ade935d1473c9b8cfff3fbc12"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "bytes": 1040694,
+      "sha256": "225a8de9e1f6d620b5f5d47a37d47d819cc62e516a0bd4a89a81f90aaee93485"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "bytes": 1958070,
+      "sha256": "f98c88a20d195cb8ce440958a3c845fbfaf2365ea7175a48247ef49b3f640ca8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "bytes": 1692924,
+      "sha256": "ec150f58b095b2848ac50e3a760d07e17aa0112fde4adec14674482bd54fd018"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "bytes": 1027181,
+      "sha256": "2de1e698e3bc2990c037295e30d6f9f54c16081426bef51738e2b489cbd42e4e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "bytes": 1935643,
+      "sha256": "001d2dfb57ab4d703f29f196d99f82c6b439a0a86e8429d96c6ca1cab2bc1ad4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "bytes": 1772608,
+      "sha256": "6a2f0bb051ed143a185cc09a9c34eb0ab788fdf055767a8dbeb4656ce596614a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "bytes": 1087821,
+      "sha256": "3f127f867c4d9d2cf17d63aae4671a86870c9d8b823665510197eacbcd1033dd"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/3to7/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/3to7/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "bytes": 2231857,
+      "sha256": "c8ba5827cdbc3159294347f4b5330f2cc53f3a8b2b63951bc127b435056188cf"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CCDM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CCDM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1716674,
+      "sha256": "16bfcd6723f99c8bd874a2e2431e5c1380b0a61168222ac9e0f029db2a3cc7f1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CCDM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CCDM_seed42/local_window_comparison_by_device.png",
+      "bytes": 1021401,
+      "sha256": "d71e0a0b1c3b05f5086b8ea1b6122e027b63f7014889205d4426009eddbdcab0"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CCDM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CCDM_seed42/real_vs_generated_by_device.png",
+      "bytes": 2408670,
+      "sha256": "4206e4be1e8f33f3e31b9a368c34e51c4c79c431418c069cde3a3ceee7715463"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CSDI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CSDI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1898393,
+      "sha256": "ad84f4bc0395551849bb350d3de8914f8c2bbf32fc35d55a083df6259467df45"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CSDI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CSDI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1047800,
+      "sha256": "8ab988449d4191d556157753cc4ca1f27fa258ac3eaace38b416ba62a27a34e7"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CSDI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CSDI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2385745,
+      "sha256": "1bc1e6750c3a2640722a363cbd6e38ab23c4b900330515a663de6a5abdb79adf"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CoSTI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CoSTI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1810183,
+      "sha256": "7b8778fe3ca2436a53e0a809c94a99548e4dafef6891045e862f5bb9d19e4abe"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CoSTI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CoSTI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1025501,
+      "sha256": "ad529290aa8353d86ea29c4c8f790b4659779c83c66006fe9a999548026b2868"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/CoSTI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/CoSTI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2440898,
+      "sha256": "129e6dee820e69c2741588448a74d662c1660e3bfeafdfe2833c8d9302b75926"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/D3R_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/D3R_seed42/anomaly_localization_by_device.png",
+      "bytes": 1888565,
+      "sha256": "d93c1a19c9209272939293cc4580ee8f21e9977c10572d06e7f8bfa73d12ac10"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/D3R_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/D3R_seed42/local_window_comparison_by_device.png",
+      "bytes": 1100321,
+      "sha256": "25ad7d88ec3221527590604c46fb7570b469de86bf3afd199ad69f8a4402c9e5"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/D3R_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/D3R_seed42/real_vs_generated_by_device.png",
+      "bytes": 2308561,
+      "sha256": "7f866c143a9e09f71b8ab8579a4783120dbcf92ebd6f1904cc13c3936e18e95c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1727207,
+      "sha256": "6dd8397ebeef34771724d1db24cc7e3c76e1414d45c7364610be9f1185946f85"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "bytes": 989657,
+      "sha256": "5e2b671b9615141a88807e49331b0fd34685f31b2c83675328b11aa7bd736596"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "bytes": 2285790,
+      "sha256": "b6cd2f29d24d59fa72385fd0cdbc5e2b6485d169048d4f3ddddf9d5e1af5018b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1927377,
+      "sha256": "acf4fcb6ceddaecf4d5fd07a8153325babef2bc9a18b748f285fc74d1399f624"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1010340,
+      "sha256": "69df8481211e17ad20a319b8cb37af420b400b75a47d406b029187f7b648f962"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2549322,
+      "sha256": "9fa3f6baaae0ccc750f7374b68347f5a9b61cb7c67cb2e9c4dfb5597d19dd567"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/FIDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/FIDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1806542,
+      "sha256": "e361bd866a89c7cc100187da3bd3cf250e72f3f21d3573d00d7d8a135e40bfb4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/FIDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/FIDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 1031779,
+      "sha256": "46067b379d392b9db92a7a3e01c88a00a2127d05e2ddc1c8d150070f86ec412e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/FIDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/FIDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 2324368,
+      "sha256": "e00c8d096f33e368dbf633348b1ef676f6c902055a5b30dc87c5a5f485f0893d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "bytes": 1886710,
+      "sha256": "548aef2d1cd134cfa30b10dcd6ae5cd03f9cd6dccc601fb688d1b91395756685"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "bytes": 1036015,
+      "sha256": "ea46afbb72585066dcd9755393b9461a8a9c931fbf8f82ea894dd43503103f9f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "bytes": 2349041,
+      "sha256": "dc21ce0f1b4a291b2620003da621a8155bc4a778b2633ac1b0dfa45cb02c123e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1808946,
+      "sha256": "bb1dc866db2bac94c24d2b3874ddf5d082148df6f80e2c003c6e62f4aa38a8a7"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "bytes": 1034561,
+      "sha256": "8c6147fcc2b6025bd7be9bbcdcd4a17f2e3a6d6b2ad2553d9af078ff841cc9bb"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "bytes": 2327275,
+      "sha256": "03ae211e3770bb8933f2435e690e7783c7f1b038a9727c2481b1c2ce5e798237"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MTSCI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MTSCI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1899268,
+      "sha256": "09f7cb5e8fb56353ce58438ec24e8c7ddb84d9a35351e189485113d64ebb0ea1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MTSCI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MTSCI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1019322,
+      "sha256": "7c0f85c0774fad27bb6c8b3d49bb03ef482456c76634607194ab34f55d1c9121"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/MTSCI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/MTSCI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2353883,
+      "sha256": "77cc5f35869650d76cdd8b28649555d723919cca30baf2c4c19331d83a1b3b2a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/NsDiff_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/NsDiff_seed42/anomaly_localization_by_device.png",
+      "bytes": 1863251,
+      "sha256": "2744e03b1bbec9038fd9efb1336959954f128dda5daa04468905d12e188b1d6b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/NsDiff_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/NsDiff_seed42/local_window_comparison_by_device.png",
+      "bytes": 1161814,
+      "sha256": "a48db003c53651be904b4059b7c146e5f2cfdcf8bf8efc24fc813b1dc7c294f8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/NsDiff_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/NsDiff_seed42/real_vs_generated_by_device.png",
+      "bytes": 2128810,
+      "sha256": "5820537ffb10e740ccb250b7da5be93024caa13dfd816207b87b1f9a90092e5f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1716026,
+      "sha256": "dfbdc65e99ac92b1ce9893bd5756d86dfbbf457c6c9f2dab0a8e2ccbbb508156"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1020822,
+      "sha256": "e709bb211274e7fce68261e192f65a5dc3b687cc8b1062f49b5a8c54bd23f46c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2408217,
+      "sha256": "db48bc1159fc084da78cf7b0354e1c77c6915978f0a4742cab694ec7035c27ed"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1709202,
+      "sha256": "88658b108f512b60c4895fb65de7bf72cbc1db8a689c5a5608fd7d1e20ccfcd8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1007057,
+      "sha256": "3d98a8d02b84d75bdab0afe2f80ad480eb99db9474b67a5c741b0e4e06fdb1b1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2294225,
+      "sha256": "4400a3a1cb0af162222ab3b837ad1661c20ae3bca9443d1eb4711f508dd74607"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSSD_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSSD_seed42/anomaly_localization_by_device.png",
+      "bytes": 1811343,
+      "sha256": "3bda6b4c848903f241ba9d6a8c1eb1fc6ba0b1cc31299b5e06d8c69d6ff9d49c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSSD_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSSD_seed42/local_window_comparison_by_device.png",
+      "bytes": 1026667,
+      "sha256": "b6f3568685160598b77bd556305d49edf863f3929d64ac776ae0d89075538deb"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/SSSD_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/SSSD_seed42/real_vs_generated_by_device.png",
+      "bytes": 2443346,
+      "sha256": "6176ab6d1e3ebb4842176ad189629e5e6043aa085bf437af05be4a60a294d66c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TSDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TSDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1699602,
+      "sha256": "44c423eb1a9e7aa93f5379cbc0f08f7321a9e40d7e644130cf672c4131e34123"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TSDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TSDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 991360,
+      "sha256": "1268a294d2e3f9a9ad44c664e84f0d2d5ac5edca579a818062ccf08f1b24a56b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TSDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TSDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 2290587,
+      "sha256": "c57ba377830d52310fafbc9e11f23925c7dc583cfd539429dd7e976d0198ec86"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1717145,
+      "sha256": "daa2d133c74b2e41bf33b187ecb468f2aac76cdc21f075cbb60c9ac24ee17a6e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "bytes": 1021897,
+      "sha256": "550f369d1fce0548ad204a6e5033d4edcbd8a21ed0fd3e7191e6f03ebd4ed39b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "bytes": 2409591,
+      "sha256": "708ea6bad5260555e03cf4f70bcabbd177231a03942b0aaf755b85eda59379a8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "bytes": 1708258,
+      "sha256": "f88ec979fe6fb1b22a1034262258f1fc112e62e3adc19b82c0105ec707e9aab0"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "bytes": 1000388,
+      "sha256": "d3d49b67f3032dad88f5903c17758de50a2f24085f1a48abd3dcca3f7b27436c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "bytes": 2327612,
+      "sha256": "f29a63e08a776ea19a60525f7818bc7025282e822aac0d01b04eecc0172cee25"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "bytes": 1812319,
+      "sha256": "aa6f1619a81706eafd2372bc416c1750bd249640161c41a0123611c455ff0ea4"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "bytes": 1026850,
+      "sha256": "15aa7e16c17bfc7d7506352567fc968f7567bb928667fee5b54787a6923c5c8d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/4to6/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/4to6/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "bytes": 2443382,
+      "sha256": "4ee745b62ec422dcb086e8f3fe9335b9dcf8b983fdb0356f2d0d941ab214c221"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CCDM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CCDM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1770806,
+      "sha256": "5382e6d9ec284d38768477480bd8c9e03f22dca92b6373c86f44c5165a1d1b57"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CCDM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CCDM_seed42/local_window_comparison_by_device.png",
+      "bytes": 997125,
+      "sha256": "cbfa6401791aa419c3ff34fb6d87da7d93e749510280423ab06e553099c9586d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CCDM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CCDM_seed42/real_vs_generated_by_device.png",
+      "bytes": 2625230,
+      "sha256": "f9eade81d5d1e78aa39044cc20b2e236635b6b23ac4ea845f2323877a9bcb65e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CSDI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CSDI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1939413,
+      "sha256": "67329489678b53dafa52f85147a08481863e0c6d8744d852a7fd9389d681bade"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CSDI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CSDI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1042695,
+      "sha256": "62730ecca7eefff63db63449097214091f34195f6c675ca198b0207ddfe54870"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CSDI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CSDI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2575151,
+      "sha256": "9190cb9f662d54b30e31e168700560be0fd3cbb88131c9b78c2baa9533e86923"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CoSTI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CoSTI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1873110,
+      "sha256": "a8474d81177ecd447cf30e4dd91572084e8eef50f782dad4f1da3b1f4ad0a9dc"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CoSTI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CoSTI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1035340,
+      "sha256": "569102c0c18162e8a0fde36b5052cf80108967de979c6fa62c7a99c5242fcdb3"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/CoSTI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/CoSTI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2663593,
+      "sha256": "ae30db97bddc700007802cc92de768801710051445dc32aed3b08c46baea2374"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/D3R_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/D3R_seed42/anomaly_localization_by_device.png",
+      "bytes": 1929886,
+      "sha256": "1eb0171b17933be951eb86c565d1080d460cd25129bc1a42b1de6b8578920376"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/D3R_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/D3R_seed42/local_window_comparison_by_device.png",
+      "bytes": 1118589,
+      "sha256": "00904bdd8a8871e05782e23b9dfb5ad0f76117d00895707b9cf69db93391bb70"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/D3R_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/D3R_seed42/real_vs_generated_by_device.png",
+      "bytes": 2500420,
+      "sha256": "96fb6d94dee34876ae8bc6f690c0263011a592a48ed1cfb9620f7581b9b4591d"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/DiffPLF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1774565,
+      "sha256": "ee12da8b452c0fab1c669c1fc7a037978f05794207813d3b843b5ef16c1b86ff"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/DiffPLF_seed42/local_window_comparison_by_device.png",
+      "bytes": 983282,
+      "sha256": "55ea0dad28c38cdd54d344fb8478359b460f9cb5ff3685e20b9077341d4dad22"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/DiffPLF_seed42/real_vs_generated_by_device.png",
+      "bytes": 2515800,
+      "sha256": "c0fcc642fbacb03fb62e0231e094a3c45d85887c1c88d5b7fd30baf7369375f1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/Diffusion_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1936254,
+      "sha256": "fcc43b4f1be672f9d44542f4b321ffea514d479a086dbded2be69a580f3e9334"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/Diffusion_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1037231,
+      "sha256": "4715d0a052540bd73789af08a5588495c8048331d163f81299726df6ff77ce7b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/Diffusion_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2749912,
+      "sha256": "34ec6c7601b4396ce3d952eb2dfa64da01f23ad4c16491977bd4707d675b2e3a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/FIDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/FIDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1871081,
+      "sha256": "f5a4972baadbf6a5bdec3536c7a4a8aaee098328ee87f77d122921c37533cb53"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/FIDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/FIDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 1025195,
+      "sha256": "f42bfd521ca1a96dc4ba4e75f8b7ebee6faf768d037d206b34062c4a92defbd0"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/FIDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/FIDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 2550294,
+      "sha256": "887a946659a647d0feb0974cabf48ea6988f83e5d538d13ed103cf5c6da5f27e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/IMDiffusion_seed42/anomaly_localization_by_device.png",
+      "bytes": 1937940,
+      "sha256": "04d3f244d10cff378c7ca7344b8553e4edf049c3cd754aedb8a5560718d3836a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/IMDiffusion_seed42/local_window_comparison_by_device.png",
+      "bytes": 1043655,
+      "sha256": "829066d364673df8ff18598af8cbe160b4b18fa72c2b018f86b8f5d949553a81"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/IMDiffusion_seed42/real_vs_generated_by_device.png",
+      "bytes": 2562259,
+      "sha256": "5cf4af7f8d104f6e07962920dcfdcff3743135233182818f85b7dc6a11bedc5c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MCD_TSF_seed42/anomaly_localization_by_device.png",
+      "bytes": 1872542,
+      "sha256": "2d81ba14bfd6822f597cf361e11a6bad0495c44a03dd2155882362c1c1122aa7"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MCD_TSF_seed42/local_window_comparison_by_device.png",
+      "bytes": 1027204,
+      "sha256": "4deda50031385b16ea756c2f49976e4e9fd066ca73808673bddfde055908bb16"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MCD_TSF_seed42/real_vs_generated_by_device.png",
+      "bytes": 2552794,
+      "sha256": "ba2310407b0168cb4cffc772911d31e93e7894b12f89f28709f4783e7a993737"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MTSCI_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MTSCI_seed42/anomaly_localization_by_device.png",
+      "bytes": 1947778,
+      "sha256": "dc9db8b95af60a6afe332d0f5b63d2ec8bd56f4fa1f2a1b2d8e7c1e7df9bcacc"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MTSCI_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MTSCI_seed42/local_window_comparison_by_device.png",
+      "bytes": 1035210,
+      "sha256": "2bd9a6db4ccb708b4f3579ce777236f184d5b4cd2e142f52c16c2cb9c0bcb698"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/MTSCI_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/MTSCI_seed42/real_vs_generated_by_device.png",
+      "bytes": 2631224,
+      "sha256": "461a0494ebecd2c61d0c926e9726431640088c4aef4aa28be06d4ff968dd654f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/NsDiff_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/NsDiff_seed42/anomaly_localization_by_device.png",
+      "bytes": 1842007,
+      "sha256": "cd3699d0b81d6bbe81455e5e4abd1b5382f8f0018f96577bb28b3d54ae8d7365"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/NsDiff_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/NsDiff_seed42/local_window_comparison_by_device.png",
+      "bytes": 1173842,
+      "sha256": "bc4bad9bba37b153fe4f8cbdaeaec8216f95c16506385484eacfaf6f4a9abe7f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/NsDiff_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/NsDiff_seed42/real_vs_generated_by_device.png",
+      "bytes": 2205076,
+      "sha256": "dd79c4cf300ec246da99d6a7d19869e347401f43ba2bcc13769fd404b66f4c56"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/PaD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1770162,
+      "sha256": "d01ab3bc3105bb3efde9c9f948188b748fbd6cf9a5abb40ca0aa4afc1edce198"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/PaD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 996586,
+      "sha256": "99439ba1b819aca1f2a267fbcfa754e7702cb7dcf2a73432e7e8c08be92c79c8"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/PaD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2624924,
+      "sha256": "026a34ce558e972ef810e6c3c866be1eca872756cbef0b2083b1e345623ed33a"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSD_TS_seed42/anomaly_localization_by_device.png",
+      "bytes": 1766457,
+      "sha256": "ab3fbd82aa4692122b735750ef7f193db73d9d7771231d66cda72733e56a28a1"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSD_TS_seed42/local_window_comparison_by_device.png",
+      "bytes": 1025497,
+      "sha256": "bd85b9efe781319f6c91cbd797cbfae7785095df37be66c124d7e0eac5772990"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSD_TS_seed42/real_vs_generated_by_device.png",
+      "bytes": 2550229,
+      "sha256": "f5e8246da408847c4680905e685932face2a03211d8ece38c518f9ab41355a48"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSSD_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSSD_seed42/anomaly_localization_by_device.png",
+      "bytes": 1874099,
+      "sha256": "aba01883f85d11b0945d0a1161628249fc9565374401ba19608aa38aa4cc41bd"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSSD_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSSD_seed42/local_window_comparison_by_device.png",
+      "bytes": 1036337,
+      "sha256": "ec2883a75b18919d938030fe6657e050f49fea6cdf3d53017322b9b304912d4b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/SSSD_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/SSSD_seed42/real_vs_generated_by_device.png",
+      "bytes": 2663614,
+      "sha256": "4c03bf60c9696bc14b8a65926a0dd87b05ad868cdbf64d48712eb35c10c522d5"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TSDE_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TSDE_seed42/anomaly_localization_by_device.png",
+      "bytes": 1758485,
+      "sha256": "5107ce14eb1b4c083ae9cfcf52cefcecb11f4c5121e339029e2f53590f273fd2"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TSDE_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TSDE_seed42/local_window_comparison_by_device.png",
+      "bytes": 1016606,
+      "sha256": "9156d3c13b0d0c52d42e2ed2ac56035cbdaea9c36b6b1b56f27867db4a62cc56"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TSDE_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TSDE_seed42/real_vs_generated_by_device.png",
+      "bytes": 2559319,
+      "sha256": "04cfc24cc70687c612970eb62db1a5fc7c9c1c856a95055985411e5f6560dc91"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TabDDPM_seed42/anomaly_localization_by_device.png",
+      "bytes": 1770877,
+      "sha256": "069f01efefc2a6d811efecb3f71dbff785aa7f3d988c7dc585e9652ae9aa6a73"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TabDDPM_seed42/local_window_comparison_by_device.png",
+      "bytes": 997494,
+      "sha256": "d957fe26a473cf028976b0bd2e1e90c01ca54643db24908a34d45d5db5cb7d03"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TabDDPM_seed42/real_vs_generated_by_device.png",
+      "bytes": 2625469,
+      "sha256": "74454878a05b49e9125a77ec18e08ce7d6518f4e2e597f7c54ea713ba74f60d0"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TimeGrad_seed42/anomaly_localization_by_device.png",
+      "bytes": 1765923,
+      "sha256": "21c36dedf9bb14b2ffd24b782f3bafa9996bdc416302e3dbf0594715d50c1f1c"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TimeGrad_seed42/local_window_comparison_by_device.png",
+      "bytes": 1015759,
+      "sha256": "c44488411c002dc1f30f5e7a45a5ad9975f72c0f7fc58f749821e6b974182a76"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/TimeGrad_seed42/real_vs_generated_by_device.png",
+      "bytes": 2585149,
+      "sha256": "419442d54da4e57adbcbf4b738b1eebd7e1f45619b5083808090f59f92dba055"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/WaveStitch_seed42/anomaly_localization_by_device.png",
+      "bytes": 1875279,
+      "sha256": "5f6d32098cc4e5ea14b998f12308de20859480944be3fcafc821a02ff6d3206e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/WaveStitch_seed42/local_window_comparison_by_device.png",
+      "bytes": 1036864,
+      "sha256": "84a98318f7a33c7de60620480de3051329234916f3dbb6327f65d92e49ea306b"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/5to5/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/5to5/WaveStitch_seed42/real_vs_generated_by_device.png",
+      "bytes": 2665816,
+      "sha256": "eb1bb8f203c5ccd17eb8d7e3d01e385af0105cca11313f553a17cffba9b5b926"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/GENERATED_DATA_VISUALIZATION.md",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/GENERATED_DATA_VISUALIZATION.md",
+      "bytes": 15944,
+      "sha256": "49e00b5873050ec035b13f31d9b3ee0013844572556c4186773c175f7bcc900e"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/configuration_summary.csv",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/configuration_summary.csv",
+      "bytes": 11604,
+      "sha256": "cf57a1434109f93fdf4f105345e5648dec559606772249676ed77bd964c53255"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/device_generation_audit.csv",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/device_generation_audit.csv",
+      "bytes": 287811,
+      "sha256": "ba75dbc41910e6fb714b871e14440dc456dff983e0dc17508e6d7fa0d71346fd"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/runs/device_data_110_220_paper_aug_v4evi_20261009/figures/generated_data/plot_protocol.json",
+      "target": "03_benchmark_v4_evidence_features/figures/generated_data/plot_protocol.json",
+      "bytes": 1028,
+      "sha256": "9cb207ba32e56f1d9b3f0744afc7c1b789cc0d206a0589d9059913b368e6f04f"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/plot_v4_generated_data.py",
+      "target": "05_scripts/plot_v4_generated_data.py",
+      "bytes": 26865,
+      "sha256": "7a9097ff51b941b999031263ad6b48b430ca32db1c773537019e24ccd32c57df"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/test_plot_v4_generated_data.py",
+      "target": "05_scripts/test_plot_v4_generated_data.py",
+      "bytes": 10429,
+      "sha256": "1418c5cdd34901264083fb2af28eef908346ae3ed27f7905b973008b02ad0562"
+    },
+    {
+      "source": "/home/test/linliting/jyzmentor/code_reproduction/experiment_augmentation/publish_v4_generated_data.py",
+      "target": "05_scripts/publish_v4_generated_data.py",
+      "bytes": 2755,
+      "sha256": "70c5d824d78f526441efbc343671a4581a628713d5bd8a6ccc6332f978977550"
+    }
+  ],
+  "figures": 216,
+  "originals_preserved": true
+}

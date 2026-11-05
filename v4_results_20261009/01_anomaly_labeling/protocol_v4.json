@@ -1,0 +1,40 @@
+{
+  "source": "/home/test/linliting/jyzmentor/device_data_110_220_final.xlsx",
+  "devices": 25,
+  "peer_group_mode": "intra-string",
+  "n_peer_groups": 9,
+  "window_size": 32,
+  "windows": 547,
+  "windows_by_type": {
+    "full": 524,
+    "tail": 23
+  },
+  "v4_candidate_windows": 38,
+  "v4_candidate_rate": 0.06946983546617916,
+  "rule_v4": "env residual z and humidity-stratified peer z agree in sign with persistence, OR >=2 per-device peer-delta jumps (only where the full peer panel is matched), OR a single isolated extreme peer jump, OR strong solo-device residual; trailing tail points are kept in a final partial window; no per-device guarantee/cap",
+  "thresholds": {
+    "window_evidence_robust_z": 3.0,
+    "persist_fraction_abs2": 0.15,
+    "min_large_peer_jumps": 2,
+    "residual_jump_point_z": 2.5,
+    "peer_jump_point_z": 8.0,
+    "isolated_peer_jump_point_z": 12.0,
+    "min_tail_points": 2
+  },
+  "humidity_audit": {
+    "window_base_hum_gt60": 0.7113945089172871,
+    "window_candidate_hum_gt60": 0.7402063397129187,
+    "labels_by_reason": {
+      "normal": 509,
+      "peer-delta jump (per-device)": 31,
+      "isolated extreme peer jump": 4,
+      "environment residual and peer agree": 3
+    },
+    "point_audit": {
+      "baseline_hum_gt60": 0.7029271452971317,
+      "n_peer_points": 16979,
+      "raw_peer_delta_top5_hum_gt60": 0.9752650176678446,
+      "stratified_peer_z_top5_hum_gt60": 0.7094117647058824
+    }
+  }
+}

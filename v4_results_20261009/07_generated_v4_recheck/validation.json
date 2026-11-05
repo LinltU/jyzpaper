@@ -1,0 +1,11 @@
+{
+  "artifact_files": 216,
+  "generated_windows": 1021518,
+  "source_hashes_unchanged": true,
+  "real_fourpoint_roundtrips": 16910,
+  "original_full_pipeline_window_labels_pass": true,
+  "sensitivity_samples": 43,
+  "sensitivity_matching_labels": 43,
+  "sensitivity_selection": "stratified label outcomes + nonpositive values + crossing 32-point boundaries; NOT representative",
+  "limitation": "full original-v4 refitting changes peer statistics and global ranks; sensitivity on subset only, not full 1M-window rerun"
+}

@@ -1,0 +1,5 @@
+baseline,candidates,candidate_pct,MAE,RMSE,R2,residual_std,common_with_huber,jaccard_vs_huber,new_vs_huber,lost_vs_huber
+huber,38,6.95,0.0948,0.16782,0.51063,0.15785,38,1.0,0,0
+archived,41,7.5,0.08811,0.16465,0.53548,0.14206,26,0.491,15,12
+nlinear,97,17.73,0.09338,0.16753,0.51913,0.16615,35,0.35,62,3
+last,135,24.68,0.11705,0.20401,0.27725,0.2002,37,0.272,98,1
